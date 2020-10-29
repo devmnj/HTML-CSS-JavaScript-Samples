@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <div> ARSENAL </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content-wraper">
+        <div class="portfolio-items-wraper">
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfoloio1.jpg);"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfolio2.jpg)"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfolio3.jpg)"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfolio4.jpg)"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfolio5.jpg)"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfolio6.jpg)"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfolio7.jpg)"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfolio8.jpg)"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfolio3.jpg)"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfolio4.jpg)"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfolio2.jpg)"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="portfolio-item-wraper">
+                <div class="portfolio-img-background" style="background-image:url(images/portfolio4.jpg)"> </div>
+                <div class="image-text-wrapper">
+                    <div class="logo-wrapper">
+                        <img src="images/logos/6.png" alt="">
+                    </div>
+                    <div class="subtitle">
+                        I build Nodej/Python apps
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    </div>
+
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wraper');
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            // console.log(portfolioItem.childNodes[1].classList);
+            portfolioItem.childNodes[1].classList.add('image-darken')
+        });
+
+        portfolioItem.addEventListener('mouseout', () => {
+            // console.log(portfolioItem.childNodes[1].classList);
+            portfolioItem.childNodes[1].classList.remove('image-darken')
+        });
+
+    });
+</script>
+
+</html>
