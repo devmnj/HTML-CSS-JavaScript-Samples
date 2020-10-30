@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="nav-wrapper">
+            <div class="left-side">
+                <div class="nav-link-wrapper ">
+                    <a href="index.html">Home</a>
+                </div>
+                <div class="nav-link-wrapper active-nav-link">
+                    <a href="about.html">About</a>
+                </div>
+            </div>
+            <div class="right-side">
+                <div> ARSENAL </div>
+            </div>
+        </div>
+
+        <div class="content-wrapper">
+            <div class="two-column-wrapper">
+                <div class="profile-image-wrapper">
+                    <img src="images/portfolio7.jpg" alt="">
+                </div>
+                <div class="profile-content-wrapper">
+                    <h1>Jona</h1>
+                    <p> Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some
+                        text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text </p>
+                    <p> Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some
+                        text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text Some text </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+</body>
+<script>
+    const portfolioItems = document.querySelectorAll('.portfolio-item-wraper');
+    portfolioItems.forEach(portfolioItem => {
+        portfolioItem.addEventListener('mouseover', () => {
+            //  console.log(portfolioItem.childNodes[1].classList);
+            portfolioItem.childNodes[1].classList.add('image-darken')
+        });
+
+        portfolioItem.addEventListener('mouseout', () => {
+
+            portfolioItem.childNodes[1].classList.remove('image-darken')
+        });
+
+    });
+</script>
+
+</html>
